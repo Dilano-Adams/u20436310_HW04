@@ -5,8 +5,13 @@ using System.Threading.Tasks;
 
 namespace u20436310_HW04.Models
 {
-    public class Farmer:Provider
+    public class Farmer : Provider
     {
-
+        public Farmer(string FProfilePictureURL, string FFullName, string FBio)
+        {
+            ProfilePictureURL = FProfilePictureURL;
+            FullName = FFullName;
+            Bio = FBio;
+        }
     }
 }
