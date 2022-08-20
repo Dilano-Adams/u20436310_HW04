@@ -24,5 +24,7 @@ namespace u20436310_HW04.Models
             Province = province;
             Description = desc;
         }
+
+        public Location() : base() { }
     }
 }

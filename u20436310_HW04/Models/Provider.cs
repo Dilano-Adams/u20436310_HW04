@@ -15,5 +15,6 @@ namespace u20436310_HW04.Models
         [Display(Name ="Biography")]
         public string Bio { get; set; }
 
+        public Provider() : base() { }
     }
 }

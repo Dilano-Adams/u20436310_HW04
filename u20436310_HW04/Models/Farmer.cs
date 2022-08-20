@@ -14,5 +14,6 @@ namespace u20436310_HW04.Models
             FullName = FFullName;
             Bio = FBio;
         }
+        public Farmer(): base() { }
     }
 }
