@@ -5,7 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="images\" />
+    <Folder Include="wwwroot\images\PDF File\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\images\Farmer\Fimage1.jpg" />
+    <None Include="wwwroot\images\Farmer\Fimage2.jpg" />
+    <None Include="wwwroot\images\Farmer\Fimage3.jpg" />
   </ItemGroup>
 
 </Project>
